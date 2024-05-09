@@ -1,0 +1,105 @@
+body{
+  background-color: #CDD0D5;
+  /* background-image: url("https://cdn4.vectorstock.com/i/1000x1000/50/18/abstract-square-background-white-design-vector-21585018.jpg"); */
+  color:"white"
+}
+.top-container{
+  margin: 1%;
+  border: 1px solid black;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.bottom-container{
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  /* margin-top: 0%; */
+  /* border: 1px solid black; */
+  padding: 1%;
+}
+
+.run{
+  margin: 1%;
+  width: 200px;
+  /* background-color: chartreuse; */
+  text-align: center;
+}
+
+.btn-container {
+  position: relative;
+}
+
+.btn-center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* .controlsContainer{
+  width:600px;
+  height:190px;
+  background-color:green;
+  padding-top:20px;
+  padding-left:15px;
+  padding-right:15px;
+}
+.langController {
+  float:left;
+  width:180px;
+  height:160px;
+  background-color:white;
+  border:solid black;
+}
+.themeController {
+  float:left;
+  width:180px;
+  height:160px;
+  background-color:white; 
+  border:solid black;
+  margin-left:20px;
+}
+.fontController {
+  float:right;
+  width:180px;
+  height:160px;
+  background-color:white;
+  border:solid black;
+} */
+
+.column {
+  height: 0px;
+  /* float: center; */
+  /* width: 25%; */
+  /* padding: 10px; */
+  /* height: 100px; Should be removed. Only for demonstration */
+  /* margin: %; */
+  text-align: center;
+  width: 33.33%;
+  /* border: 3px solid #73AD21; */
+  visibility: hidden;
+}
+.row{
+  margin: 1%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    /* margin: 1%; */
+    visibility: visible;
+    height: auto;
+    padding: 10px;
+  }
+}

@@ -1,9 +1,9 @@
 # Placements-Assistance-Application
 
-## Description:
+### Description:
 Placements-Assistance-Application is a comprehensive platform designed to facilitate the college placement process for students. Leveraging a combination of modern web technologies, the application offers a seamless experience for both students and recruiters.
 
-## Key Features:
+### Key Features:
 
 - **Frontend Support**: For front end we have made use of HTML, CSS, JS and Bootstrap and various other frameworks and libraries to make it user friendly.
   

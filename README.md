@@ -7,7 +7,7 @@ Placements-Assistance-Application is a comprehensive platform designed to facili
 
 - **Frontend Support**: For front end we have made use of HTML, CSS, JS and Bootstrap and various other frameworks and libraries to make it user friendly.
   
-- **Backend Support**: Powered by PHP and MySQL, the backend infrastructure ensures reliability, security, and efficient data management, supporting seamless interactions between users and the platform.
+- **Backend Support**: Backend is powered by PHP and MySQL, the backend infrastructure ensures reliability, security, and efficient data management, supporting seamless interactions between users and the platform.
   
 - **User Authentication**: Students can securely sign up and log in using their username and password, accessing personalized features and resources.
   
